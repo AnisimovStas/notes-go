@@ -1,0 +1,12 @@
+info:
+  contact: {}
+paths:
+  /api/heartbeat:
+    get:
+      responses:
+        "400":
+          description: Bad Request
+      summary: Heartbeat metric
+      tags:
+      - metrics
+swagger: "2.0"
